@@ -13,8 +13,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Set your MAC and broadcast address here, or get from user input
-        val macAddress = "A8-A1-59-E0-AB-64"
+        val macAddress = ""
         val broadcast = "192.168.100.255"
 
         binding.buttonSend.setOnClickListener {
